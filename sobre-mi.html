@@ -4,9 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre mí</title>
+
+    <style>
+
+   <style>
+
+    body{
+        background-color: #f4f9ff;
+        margin: 30px;
+    }
+
+    h1{
+        color: #2c5aa0;
+        border-bottom: 3px solid #8cbcff;
+        padding-bottom: 10px;
+    }
+
+    h2{
+        color: #3d6cb9;
+    }
+
+    nav{
+        background-color: #dbeafe;
+        padding: 15px;
+        border-radius: 10px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+
+    nav ul{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav ul li{
+        display: inline-block;
+        margin-right: 20px;
+    }
+
+    nav ul li a{
+        text-decoration: none;
+        color: #1e3a8a;
+        font-weight: bold;
+    }
+
+    nav ul li a:hover{
+        color: #60a5fa;
+    }
+
+    .contenedor{
+        display: flex;
+        margin-top: 20px;
+        background-color: white;
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .texto{
+        width: 60%;
+    }
+
+    .imagen{
+        width: 40%;
+        text-align: center;
+    }
+
+    .imagen img{
+        width: 250px;
+        border-radius: 15px;
+        border: 4px solid #bfdbfe;
+    }
+
+    p{
+        color: #374151;
+        line-height: 1.6;
+    }
+
+</style>
+
+    </style>
+
 </head>
 
 <body>
+
+    <h1>Mi Blog Personal</h1>
 
     <nav>
         <ul>
@@ -17,22 +101,36 @@
         </ul>
     </nav>
 
-    <h1>Sobre mí</h1>
+    <div class="contenedor">
 
-    <p>
-        Hola, mi nombre es Rafael Catucuamba, tengo 23 años y vivo en Cayambe,
-        en la parroquia Olmedo.
-    </p>
+        <div class="texto">
 
-    <p>
-        Actualmente estudio la carrera de Negocios Digitales en la Universidad
-        Politécnica Salesiana.
-    </p>
+            <h2>Sobre mí</h2>
 
-    <p>
-        Soy una persona tranquila, me gusta aprender nuevas cosas y disfruto
-        mucho estar en la naturaleza.
-    </p>
+            <p>
+                Hola, mi nombre es Rafael Catucuamba, tengo 23 años y vivo en Cayambe,
+                en la parroquia Olmedo.
+            </p>
+
+            <p>
+                Actualmente estudio la carrera de Negocios Digitales en la Universidad
+                Politécnica Salesiana.
+            </p>
+
+            <p>
+                Soy una persona tranquila, me gusta aprender nuevas cosas y disfruto
+                mucho estar en la naturaleza.
+            </p>
+
+        </div>
+
+        <div class="imagen">
+
+            <img src="imagenes/familia.jpg" alt="Mi familia">
+
+        </div>
+
+    </div>
 
 </body>
 </html>
